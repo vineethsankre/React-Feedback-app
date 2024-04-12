@@ -47,3 +47,34 @@
   font-family: 'Roboto';
   font-weight: 500;
 }
+.feedback-card{
+  background-color: #fff;
+  border-radius: 12px;
+  width: 80%;
+  padding: 24px;
+  max-width: 606px;
+}
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.love-emoji {
+  width: 60px;
+  height: 54px;
+}
+.thank-you-text {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+.description {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 300;
+}

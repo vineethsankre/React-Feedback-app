@@ -3,7 +3,7 @@ import './index.css'
 
 class Feedback extends Component {
   state = {
-    isFeedbackGiven = false,
+    isFeedbackGiven: false,
   }
   onClickEmoji = () => this.setState({isFeedbackGiven: true})
 
@@ -35,19 +35,21 @@ class Feedback extends Component {
     const {resources} = this.props
     const {loveEmojiUrl} = resources
     return (
-      <div>
-        <img src= {loveEmojiUrl} alt="love emoji"/>
-        <h1>Thank You</h1>
-        <p>We will use your feedback to improve our customer support performance</p>
+      <div className="thank-you-container">
+        <img clsasName="love-emoji" src={loveEmojiUrl} alt="love emoji" />
+        <h1 className="thank-you-text">Thank You</h1>
+        <p className="description">
+          We will use your feedback to improve our customer support performance
+        </p>
       </div>
     )
   }
 
   render() {
-    const {isFeedbackGiven} = this.state 
+    const {isFeedbackGiven} = this.state
     return (
       <div className="app-container">
-        <div>
+        <div className="feedback-card">
           {isFeedbackGiven
             ? this.renderThankYouScreen()
             : this.renderFeedbackPage()}
