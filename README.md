@@ -1,6 +1,6 @@
-In this project, let's build a **Feedback App** by applying the concepts we have learned till now.
+In this project, let's build a react **Feedback App** 
 
-### Refer to the image below:
+### Reference Image:
 
 <br/>
 <div style="text-align: center;">
