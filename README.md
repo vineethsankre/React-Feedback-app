@@ -63,33 +63,7 @@ Use these files to complete the implementation:
 - `src/components/Feedback/index.css`
 </details>
 
-### Important Note
 
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- The love emoji should have the alt as **love emoji**
-- The emojis should have the alt equal to `name` value in each emoji object
-
-</details>
-
-<details>
-<summary>Colors</summary>
-
-<br/>
-
-<div style="background-color: #ffeeee; width: 150px; padding: 10px; color: black">Hex: #ffeeee</div>
-<div style="background-color: #ffc0bb; width: 150px; padding: 10px; color: black">Hex: #ffc0bb</div>
-<div style="background-color: #ffebeb; width: 150px; padding: 10px; color: black">Hex: #ffebeb</div>
-<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-<div style="background-color: #0f172a; width: 150px; padding: 10px; color: white">Hex: #0f172a</div>
-<div style="background-color: #1e293b; width: 150px; padding: 10px; color: white">Hex: #1e293b</div>
-
-</details>
 
 
 
