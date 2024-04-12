@@ -11,11 +11,11 @@ class Feedback extends Component {
     const {resources} = this.props
     const {emojis} = resources
     return (
-      <div className="feedback-container">
-        <h1 className="heading">
+      <div className="feedback-question-container">
+        <h1 className="feedback-question">
           How satisfied are you with our customer support performance?
         </h1>
-        <ul className="emoji-container">
+        <ul className="emojis-list">
           {emojis.map(eachEmoji => (
             <li className="emoji" key={eachEmoji.id}>
               <img
