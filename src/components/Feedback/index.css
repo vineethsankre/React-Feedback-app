@@ -77,3 +77,18 @@
   font-size: 16px;
   font-weight: 300;
 }
+@media screen and (min-width:768px){
+  .feedback-card {
+    padding: 32px;
+  }
+
+}
+@media screen and (min-width:992px){
+  .feedback-card {
+    padding: 64px;
+  }
+  .feedback-question {
+    font-size: 32px;
+  }
+  
+}
