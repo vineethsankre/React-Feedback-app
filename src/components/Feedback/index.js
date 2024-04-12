@@ -36,7 +36,7 @@ class Feedback extends Component {
     const {loveEmojiUrl} = resources
     return (
       <div className="thank-you-container">
-        <img clsasName="love-emoji" src={loveEmojiUrl} alt="love emoji" />
+        <img className="love-emoji" src={loveEmojiUrl} alt="love emoji" />
         <h1 className="thank-you-text">Thank You</h1>
         <p className="description">
           We will use your feedback to improve our customer support performance
