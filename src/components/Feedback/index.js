@@ -5,6 +5,7 @@ class Feedback extends Component {
   state = {
     isFeedbackGiven: false,
   }
+
   onClickEmoji = () => this.setState({isFeedbackGiven: true})
 
   renderFeedbackPage = () => {
@@ -18,14 +19,18 @@ class Feedback extends Component {
         <ul className="emojis-list">
           {emojis.map(eachEmoji => (
             <li className="emoji" key={eachEmoji.id}>
-              <button type="button" className="emoji-btn" onClick={this.onClickEmoji}>
+              <button
+                type="button"
+                className="emoji-btn"
+                onClick={this.onClickEmoji}
+              >
                 <img
                   className="emoji-img"
                   src={eachEmoji.imageUrl}
                   alt={eachEmoji.name}
                 />
               </button>
-              
+
               <p className="emoji-name">{eachEmoji.name}</p>
             </li>
           ))}
@@ -33,6 +38,7 @@ class Feedback extends Component {
       </div>
     )
   }
+
   renderThankYouScreen = () => {
     const {resources} = this.props
     const {loveEmojiUrl} = resources
