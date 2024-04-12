@@ -36,6 +36,12 @@
   margin-right: 30px;
   list-style-type: none;
 }
+.emoji-btn{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+}
 .emoji-img {
   width: 45px;
   height: 45px;
@@ -77,18 +83,16 @@
   font-size: 16px;
   font-weight: 300;
 }
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px) {
   .feedback-card {
     padding: 32px;
   }
-
 }
-@media screen and (min-width:992px){
+@media screen and (min-width: 992px) {
   .feedback-card {
     padding: 64px;
   }
   .feedback-question {
     font-size: 32px;
   }
-  
 }

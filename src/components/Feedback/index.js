@@ -18,12 +18,14 @@ class Feedback extends Component {
         <ul className="emojis-list">
           {emojis.map(eachEmoji => (
             <li className="emoji" key={eachEmoji.id}>
-              <img
-                className="emoji-img"
-                src={eachEmoji.imageUrl}
-                alt={eachEmoji.name}
-                onClick={this.onClickEmoji}
-              />
+              <button type="button" className="emoji-btn" onClick={this.onClickEmoji}>
+                <img
+                  className="emoji-img"
+                  src={eachEmoji.imageUrl}
+                  alt={eachEmoji.name}
+                />
+              </button>
+              
               <p className="emoji-name">{eachEmoji.name}</p>
             </li>
           ))}
